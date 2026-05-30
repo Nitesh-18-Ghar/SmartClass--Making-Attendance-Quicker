@@ -9,7 +9,7 @@ def home_screen():
 
     style_base_layout()
     style_base_home()
-    style_base_dashboard()
+    style_base_dashboard()      # For green Background
 
     col1, col2 = st.columns(2, gap='large')
 

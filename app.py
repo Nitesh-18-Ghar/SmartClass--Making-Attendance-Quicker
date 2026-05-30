@@ -17,6 +17,4 @@ def main():
 
         case None:
             home_screen()
-
-
 main()

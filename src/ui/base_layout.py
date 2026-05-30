@@ -4,7 +4,7 @@ def style_base_home():
     st.markdown(""" 
     <style>
         .stApp {
-            background-color: #d0e6ff;
+            background: #d0e6ff !important;
         }
                 
         .stApp div[data-testid="stColumn"]{
@@ -19,7 +19,22 @@ def style_base_dashboard():
     st.markdown(""" 
     <style>
         .stApp {
-            background-color: #7cb078;
+            background: #7cb078 !important;
+        }
+    </style>
+    """, unsafe_allow_html=True) 
+
+def style_background_dashboard():
+    st.markdown(""" 
+    <style>
+        .stApp {
+            background: #d0e6ff !important;
+            color: black !important;
+        }
+                
+        label {
+            color: #3d348b !important;
+            font-weight: bold;
         }
     </style>
     """, unsafe_allow_html=True) 
@@ -56,6 +71,19 @@ def style_base_layout():
             
             h3, h4, p{
                 font-family: "Outfit", sans-serif
+            }
+                
+            /* Input box background */
+            .stTextInput > div > div > input {
+                background-color: white;
+                color: black;
+                border: 2px solid #6C63FF;
+                border-radius: 10px;
+            }
+                
+            /* Placeholder color */
+            .stTextInput input::placeholder {
+                color: gray;
             }
                 
             button[kind="primary"] {
