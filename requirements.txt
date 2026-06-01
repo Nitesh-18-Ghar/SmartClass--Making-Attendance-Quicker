@@ -16,3 +16,7 @@ segno
 pillow
 
 streamlit
+
+# VOICE RECOGNITION
+librosa
+resemblyzer
