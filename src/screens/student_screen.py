@@ -49,7 +49,7 @@ def student_dashboard():
 
         stats_map[s_id]['total'] += 1
 
-        if logs.get('is_present'):
+        if log.get('is_present'):
             stats_map[s_id]['attended'] += 1
 
     cols = st.columns(2)
