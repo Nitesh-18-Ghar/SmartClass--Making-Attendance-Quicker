@@ -7,7 +7,7 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 
 def main():
     st.set_page_config(
-        page_title = "SmartClass - Making Attendance Faster Using AI"
+        page_title = "SmartClass - Making Attendance Faster Using AI",
         page_icon = "https://static.vecteezy.com/system/resources/previews/014/604/541/non_2x/smart-education-logo-design-vector.jpg"
     )
     if 'login_type' not in st.session_state:
