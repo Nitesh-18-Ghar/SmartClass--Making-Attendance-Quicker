@@ -4,7 +4,7 @@ def style_base_home():
     st.markdown(""" 
     <style>
         .stApp {
-            background-color: #00ABE4 !important;
+            background-color: #d0e6ff !important;
         }
                 
         .stApp div[data-testid="stColumn"]{
@@ -19,7 +19,7 @@ def style_base_dashboard():
     st.markdown(""" 
     <style>
         .stApp {
-            background: #7cb078 !important;
+            background: #00ABE4 !important;
         }
     </style>
     """, unsafe_allow_html=True) 
